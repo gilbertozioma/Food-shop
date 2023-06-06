@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logoo {
+    width: 60px;
+}
+
+.admin-image {
+    width: 100px;
+    /* height: 100px; */
+    /* border-radius: 100%; */
+    /* margin: auto; */
+}
+
+.custom-carousel {
+    max-width: 1400px;
+    height: 300px;
+    padding: 0 auto;
+}
+
+.custom-carousel img {
+    /* margin-top: 10px; */
+    height: 500px;
+    margin: 0 auto;
+    /* set the height of the carousel item */
+    object-fit: cover;
+    /* use the cover value to scale the image as large as possible while maintaining aspect ratio and cropping any excess */
+}
+
+.third-div h3 {
+    font-size: 50px;
+}
+
+.third-div p {
+    font-size: 20px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+.card {
+    background-color: #1c1c22;
+}
+
+/* .bg-inforr{
+    background-color: #0dcaf0;
+} */
+.success-msg {
+    background-color: #2ed573;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.warning-msg {
+    /* background-color: #e4be4e; */
+    color: #e9bb30;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.error-msg {
+    background-color: #ff4757;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.error-msg2 {
+    /* background-color: #ff4757; */
+    color: #ff4757;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* .caro {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 40%;
+    margin: auto;
+} */
+
+.nav-bg {
+    background-color: #F79F1F !important;
+}
+
+.bg {
+    background-color: #F79F1F !important;
+}
+
+.bg:hover {
+    background-color: #e0921b !important;
+    transition: all .2s;
+}
+
+.bg2 {
+    background-color: #F79F1F !important;
+    width: 130px;
+    height: 40px;
+    margin: auto;
+}
+
+.bg2:hover {
+    background-color: #e0921b !important;
+    transition: .2s;
+}
+
+.olink:hover {
+    border-bottom: 1px solid whitesmoke;
+    transition: .2s;
+}
+
+.bg3 {
+    background-color: #0d6efd !important;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+}
+
+.bg3:hover {
+    background-color: #0956c9 !important;
+    transition: .2s;
+}
+
+.olink2:hover {
+    border-bottom: 1px solid whitesmoke;
+    transition: .2s;
+}
+
+.check {
+    background-color: #2ecc71 !important;
+}
+
+.check:hover {
+    background-color: #27ae60 !important;
+    transition: .2s;
+}
+
+/* .see_body {
+    background-image: url('./img/view.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+.see-more {
+    width: 150px;
+    height: 35px;
+    /* transition: .2s ease-in-out; */
+    /* text-decoration: none; */
+    /* padding: 20px; */
+    /* align-items: center; */
+    /* margin: auto; */
+}
+
+.see-more:hover {
+    border: 3px solid dimgray;
+    border-radius: 3px;
+}
+
+.product-detail {
+    width: 50%;
+}
+
+.product-detail h4 {
+    color: #e9bb30;
+}
+
+.related2 {
+    color: #F79F1F;
+}
+
+.product-detail img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+.cb {
+    background-color: black;
+    border-radius: 100%;
+    padding: 0.2em 0.4em;
+    display: inline-block;
+    margin-left: 0.3em;
+}
+
+.tb-img {
+    width: 100px;
+    object-fit: contain;
+}
+
+/* .pay{
+    width: 400px;
+    margin: auto;
+    display: block;
+} */
+.bg-primary:hover {
+    background-color: #c22232;
+}
+
+/* .slide-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) url('<?php echo ./admin/product_images/$product_image ?>'));
+} */
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ul-nav:hover{
+    color: #e0921b !important;
+    transition: all .2s;
+}
+section {
+    padding-top: 120px !important;
+    padding-bottom: 120px !important;
+}
+section img{
+    width: 100% !important;
+}
+/* About */
+#about .divider{
+    width: 60px;
+    height: 2px;
+    background-color: #F79F1F;
+}
+/* Intro text */
+.intro-text{
+    margin-bottom: 40px;
+    text-align: center;
+}
+.intro-text p{
+    max-width: 500px;
+    margin: 16px auto 0 auto;
+}
+/* Menu */
+#menu .nav-pills .nav-link{
+    background-color: #fff;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #0c0c0c;
+    border-radius: 100px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+#menu .nav-pills .nav-link.active{
+    background-color: #F79F1F;
+    color: #ffffff;
+}
+.bg-secondary{
+    background-color: #1b1b29 !important;
+}
