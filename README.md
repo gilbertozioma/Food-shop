@@ -1,2 +1,2 @@
 # Food-shop
-This is a fullstack food ordering website I built where users can register, login, shop foods and order foods. I used Bootstrap, CSS and JavaScript for the frontend and PHP and MySQL for the backend. Dm me with the Twitter handle in my bio for the database if you want to make a contribution.
+I developed a comprehensive food ordering website that encompasses both frontend and backend functionalities. Users can easily register, log in, browse, and order various food items. The frontend was built using Bootstrap, CSS, and JavaScript, while the backend utilizes PHP and MySQL. If you're interested in contributing, please send me a direct message on Twitter using the handle provided in my bio, and I'll share the database details with you.
