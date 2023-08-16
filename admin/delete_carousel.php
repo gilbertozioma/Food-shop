@@ -11,7 +11,7 @@
             // Redirect to the admin page
             echo "<script>window.open('./index.php')</script>";
         
-        $_SESSION['add'] = "<div class='success-msg'>Carousel deleted successfully.</div>";
+        $_SESSION['delete'] = "<div class='alert alert-success'>Carousel Deleted Successfully.</div>";
         }
         
     }
