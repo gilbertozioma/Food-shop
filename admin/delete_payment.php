@@ -11,6 +11,6 @@ if (isset($_GET['delete_payment'])) {
         // Redirect to the admin page
         echo "<script>window.open('./index.php','_self')</script>";
 
-        $_SESSION['add'] = "<div class='success-msg'>Product deleted successfully.</div>";
+        $_SESSION['delete'] = "<div class='alert alert-success'>Payment Deleted Successfully.</div>";
     }
 }
