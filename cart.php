@@ -68,7 +68,7 @@ include('functions/common_function.php');
                 <!-- Search form -->
                 <form action="search_product.php" method="get" role="search" class="form-inline " style="width: 149px;">
                     <div class="input-group">
-                        <input type="search" name="search_data" class="form-control fma bg-light rounded-0 h-25" placeholder="Search">
+                        <input type="search" name="search_data" class="form-control fma  bg-light rounded-0 h-25" placeholder="Search">
                         <div class="input-group-prepend">
                             <button type="submit" class="border-1 rounded-0  h-100 text-white input-group-text" name="search_data_product"><i class="fa fa-search"></i></button>
                         </div>
