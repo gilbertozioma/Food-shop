@@ -26,8 +26,8 @@
             $number++;
         ?>
             <tr>
-                <td><?php echo $number ?></td>
-                <td><?php echo $category_title ?></td>
+                <td class="text-light"><?php echo $number ?></td>
+                <td class="text-light"><?php echo $category_title ?></td>
                 <td><a href='index.php?edit_category=<?php echo $category_id ?>' class='text-light'><i class='fas fa-edit'></i></a></td>
                 <td><a href='index.php?delete_category=<?php echo $category_id ?>' class='text-light' data-bs-toggle="modal" data-bs-target="#exampleModal"><i class='fas fa-trash'></i></a></td>
             </tr>
