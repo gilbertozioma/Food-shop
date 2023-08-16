@@ -11,7 +11,7 @@
             // Redirect to the admin page
             echo "<script>window.open('./index.php')</script>";
         
-        $_SESSION['add'] = "<div class='alert alert-success'>Lunch Deleted Successfully.</div>";
+        $_SESSION['delete'] = "<div class='alert alert-success'>Lunch Deleted Successfully.</div>";
            
         }
         
