@@ -11,7 +11,7 @@
             // Redirect to the admin page
             echo "<script>window.open('./index.php')</script>";
         
-        $_SESSION['delete'] = "<div class='success-msg'>Product deleted successfully.</div>";
+        $_SESSION['delete'] = "<div class='alert alert-success'>Product Deleted Successfully.</div>";
         }
         
     }
