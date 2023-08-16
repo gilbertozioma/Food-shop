@@ -10,7 +10,7 @@
 
 <h3 class=" text-success text-center">All Lunch</h3>
 
-<table class="table table-bordered border-secondary mt-5 text-center">
+<table class="table table-bordered border-secondary mt-5 mb-5 text-center">
     <thead class="nav-bg">
         <tr>
             <th>ID</th>
@@ -41,12 +41,12 @@
             $number++;
         ?>
             <tr>
-                <td><?php echo $number ?></td>
-                <td><?php echo $lunch_title ?></td>
+                <td class="text-light"><?php echo $number ?></td>
+                <td class="text-light"><?php echo $lunch_title ?></td>
                 <td><img class="imgg" src="product_images/<?php echo $lunch_image ?>" alt="image"></td>
-                <td><?php echo $category_title ?></td>
-                <td><?php echo $lunch_price ?></td>
-                <td>
+                <td class="text-light"><?php echo $category_title ?></td>
+                <td class="text-light"><?php echo $lunch_price ?></td>
+                <td class="text-light">
                     <?php
                     $get_count = "SELECT * FROM tbl_orders_pending WHERE product_id = $lunch_id";
                     $res_count = mysqli_query($conn, $get_count);
@@ -54,7 +54,7 @@
                     echo $row_count;
                     ?>
                 </td>
-                <td><?php echo $status ?></td>
+                <td class="text-light"><?php echo $status ?></td>
                 <td><a href='index.php?edit_lunch=<?php echo $lunch_id ?>' class='text-light'><i class='fas fa-edit'></i></a></td>
                 <td><a href='index.php?delete_lunch=<?php echo $lunch_id ?>' class='text-light' data-bs-toggle="modal" data-bs-target="#exampleModal"><i class='fas fa-trash'></i></a></td>
             </tr>
