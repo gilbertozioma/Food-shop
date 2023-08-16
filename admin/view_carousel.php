@@ -5,7 +5,7 @@
 
 <h3 class=" text-success text-center">Carousel Details</h3>
 
-<table class="table table-bordered border-secondary mt-5 text-center">
+<table class="table table-bordered border-secondary mt-5 mb-5 text-center">
     <thead class="nav-bg">
         <tr>
             <th>Product ID</th>
@@ -28,8 +28,8 @@
             $number++;
         ?>
             <tr>
-                <td><?php echo $number ?></td>
-                <td><?php echo $product_title ?></td>
+                <td class="text-light"><?php echo $number ?></td>
+                <td class="text-light"><?php echo $product_title ?></td>
                 <td><img class="imgg" src="./product_images/<?php echo $product_image ?>" alt="image"></td>
                 <td><a href='index.php?edit_carousel=<?php echo $product_id ?>' class='text-light'><i class='fas fa-edit'></i></a></td>
                 <td><a href='index.php?delete_carousel=<?php echo $product_id ?>' class='text-light' data-bs-toggle="modal" data-bs-target="#exampleModal"><i class='fas fa-trash'></i></a></td>
