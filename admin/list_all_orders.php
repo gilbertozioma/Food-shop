@@ -36,13 +36,13 @@
                 $number++;
 
                 echo "<tr>
-                <td>$number</td>
-                <td>$amount_due</td>
-                <td>$invoice_number</td>
-                <td>$total_products</td>
-                <td>$order_date</td>
-                <td>$status</td>
-                <td><a href='index.php?delete_order=$order_id' class='text-light' type='button' data-bs-toggle='modal' data-bs-target='#exampleModal'><i class='fas fa-trash'></i></a></td>
+                <td class='text-light'>$number</td>
+                <td class='text-light'>$amount_due</td>
+                <td class='text-light'>$invoice_number</td>
+                <td class='text-light'>$total_products</td>
+                <td class='text-light'>$order_date</td>
+                <td class='text-light'>$status</td>
+                <td class='text-light'><a href='index.php?delete_order=$order_id' class='text-light' type='button' data-bs-toggle='modal' data-bs-target='#exampleModal'><i class='fas fa-trash'></i></a></td>
             </tr>";
             }
         }
