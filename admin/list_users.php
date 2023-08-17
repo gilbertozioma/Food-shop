@@ -36,13 +36,13 @@
                 $number++;
         
                 echo "<tr>
-                    <td>$number</td>
-                    <td>$username</td>
-                    <td>$user_email</td>
+                    <td class='text-light'>$number</td>
+                    <td class='text-light'>$username</td>
+                    <td class='text-light'>$user_email</td>
                     <td><img class='imgg' src='../user_area/user_images/$user_image' alt='$username'</td>
-                    <td>$user_ip</td>
-                    <td>$user_address</td>
-                    <td>$user_contact</td>
+                    <td class='text-light'>$user_ip</td>
+                    <td class='text-light'>$user_address</td>
+                    <td class='text-light'>$user_contact</td>
                     <td><a href='index.php?delete_user=$user_id' class='text-light' type='button' data-bs-toggle='modal' data-bs-target='#exampleModal'><i class='fas fa-trash'></i></a></td>
                 </tr>";
         
